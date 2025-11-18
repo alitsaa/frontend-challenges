@@ -4,6 +4,8 @@
 }
 .age {
     color:  hsl(227, 10%, 46%); 
+    text-align: right;
+    
 }
 .sub-title {
    font-size: 12px; 
@@ -11,10 +13,14 @@
    font-family: "Kumbh Sans", "Outfit" ;
 }
 .box-1 {
-    border-radius: 10px;
-    margin-left: auto;
+    height:350px;
+    width:350px; 
+    background-image: url(bg-pattern-card.svg) ;
+    border-radius:15px; 
+    padding: 20px;
+    margin:30px; 
+    text-align: center;
+    margin-left:auto;
     margin-right:auto;
-    background-color: aqua;
-    width: 50px;
-    height:50px;
+    box-shadow: 4.0px 8.0px 8.0px hsla(0, 0%, 54%, 0.38);
 }
