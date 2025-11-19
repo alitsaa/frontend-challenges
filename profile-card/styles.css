@@ -15,7 +15,7 @@
 .box-1 {
     height:350px;
     width:350px; 
-    background-image: url(bg-pattern-card.svg) ;
+    background-color: white;
     border-radius:15px; 
     padding: 20px;
     margin:30px; 
@@ -23,4 +23,15 @@
     margin-left:auto;
     margin-right:auto;
     box-shadow: 4.0px 8.0px 8.0px hsla(0, 0%, 54%, 0.38);
+}
+
+.box-2 {
+    height:200px;
+    width:350px; 
+    background-image: url(./images/bg-pattern-card.svg);
+    border-radius:15px; 
+    padding:20px;  
+    margin-top: auto;
+    margin-left:auto;
+    margin-right: auto;
 }
